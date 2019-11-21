@@ -1,0 +1,14 @@
+dn:uid=,ou=,dc=,dc=
+objectClass=inetOrgPerson
+objectClass=posixAccount
+objectClass=shadowAccount
+cn=
+sn=
+uid=
+uidNumber=300
+gidNumber=300
+userPassword=
+homeDirectory= /home/
+loginShell=/bin/bash
+gecos=
+description= User account

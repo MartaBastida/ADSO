@@ -1,0 +1,14 @@
+dn:uid=piloto2,ou=pilotos,dc=korriban,dc=sith
+objectClass=inetOrgPerson
+objectClass=posixAccount
+objectClass=shadowAccount
+cn=piloto2
+sn=piloto2
+uid=piloto2
+uidNumber=300
+gidNumber=300
+userPassword=piloto2
+homeDirectory= /home/piloto2
+loginShell=/bin/bash
+gecos=piloto2
+description= User account
