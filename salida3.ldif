@@ -1,0 +1,14 @@
+dn:uid=marta,ou=martas,dc=endor,dc=ally
+objectClass=inetOrgPerson
+objectClass=posixAccount
+objectClass=shadowAccount
+cn=marta
+sn=marta
+uid=marta
+uidNumber=300
+gidNumber=300
+userPassword=marta
+homeDirectory= /home/marta
+loginShell=/bin/bash
+gecos=marta
+description= User account
