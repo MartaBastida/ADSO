@@ -1,10 +1,12 @@
 #!/bin/bash
 # DESCRIPTION creacion archivo ldif con variables interaccion con usario
 #AUTHOR Marta Bastida
+#Pedimos al usuario que introduzca los datos del usuario por pantalla
 read -p "Escribe el nombre del usuario:" uid
 read -p "Escribe el nombre del grupo del usuario:" ou
 read -p "Escribe el nombre del SLD:" dc1
 read -p "Escribe el nombre del TLD:" dc2
+#uso de las variables, metiendo la salida en el archivo salida2.ldif
 echo dn:uid=$uid,ou=$ou,dc=$dc1,dc=$dc2 > salida2.ldif
 echo objectClass=inetOrgPerson >> salida2.ldif
 echo objectClass=posixAccount >> salida2.ldif
@@ -19,6 +21,8 @@ echo homeDirectory= /home/$uid >> salida2.ldif
 echo loginShell=/bin/bash >> salida2.ldif
 echo gecos=$uid >> salida2.ldif
 echo description= User account >> salida2.ldif
+#Sacamos por pantalla la salida del script
 cat salida2.ldif
+#Terminamos sin errores
 exit 0
 
