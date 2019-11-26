@@ -1,0 +1,1 @@
+./script12.sh: línea 32: Nombre: orden no encontrada
