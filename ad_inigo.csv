@@ -1,0 +1,3 @@
+firstname;middleInitial;lastname;username;email;streetaddress;city;zipcode;state;country;department;password;telephone;jobtitle;company;ou;
+Joshua;L;Lynch;JLynch;JLynch@activedirectorypro.com;2749 Liberty Street;Dallas;75202;TX;United States;Marketing;Roadfox2209;214-800-4820;Marking Specialist;AD Pro;CN=Users,DC=ad,DC=activedirectorypro,DC=COM;
+Sam;A;smith;ssmith;ssmith@activedirectorypro.com;2749 Liberty Street;Dallas;75202;TX;United States;Marketing;Roadfox2208;214-800-4820;Marking Specialist;AD Pro;CN=Users,DC=ad,DC=activedirectorypro,DC=COM;
